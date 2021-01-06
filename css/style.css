@@ -1,0 +1,73 @@
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+.outline{
+  border-radius: 5px;
+  border: solid 2px #ffffff;
+  white-space: normal;
+  word-wrap: break-word;
+}
+body{
+  padding :50px 0px 0px 0px;
+  z-index: 0;
+  color:floralwhite;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge #ffffff;
+    min-height:400px;
+}
+.footer{
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    color:floralwhite;
+}
+.col-content{
+  padding :10px 0px 0px 0px;
+}
+address{
+    font-size:80%;
+    margin:0px;
+}
+.carousel-item{
+  height: 300px;
+}
+@media screen and (max-width:998px){
+  .carousel-item{
+    height:400px;
+  }
+}
+@media screen and (max-width:525px){
+  .carousel-item{
+    height:520px;
+  }
+}
+@media screen and (max-width:414px){
+  .carousel-item{
+    height:600px;
+  }
+}
+@media screen and (max-width:354px){
+  .carousel-item{
+    height:700px;
+  }
+}
+@media screen and (max-width:310px){
+  .mycarousel{
+    display:none;
+  }
+}
+.carousel-item img{
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

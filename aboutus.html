@@ -1,0 +1,257 @@
+<!doctype html><html lang="en"><head> 
+  <!-- Required meta tags always come first --> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <meta http-equiv="x-ua-compatible" content="ie=edge"> 
+  <!-- Bootstrap CSS --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+<script src="https://kit.fontawesome.com/f92b0c41ba.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet"> 
+  <style>
+    #circleBar{
+      margin-top:50px;
+      text-align:center;
+      font-family:tahoma;
+      margin-bottom: 50px;
+    }
+    #circleBar .round{
+      min-height:255px ;
+      margin-top:30px;
+      position: relative;
+      margin-bottom:20px;
+    }
+    #circleBar .round strong{
+      position:absolute;
+      top:50%;
+      bottom:50%;
+      right:30%;
+      margin-top:-50px;
+      transform:translate(-50%);
+      font-size:40px;
+      color:#212121;
+      font-weight:100;
+      }
+      #circleBar span{
+        display:block;
+        color:#999;
+        font-size:17px;
+        margin-top:10px;
+      }
+      #circleBar span i{
+        color: #885eaf;
+        font-size:22px;
+        margin-right:7px;
+      }
+      section button:hover{
+        background-color: #885eaf;
+      }
+  </style>
+ </head> 
+ <body> 
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand ml-auto" href="./index.html"><img src="img/ai.jpg" alt="gcectLogo" height="30" width="41"></a>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fas fa-info fa-lg"></span> About</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fas fa-address-card fa-lg"></span> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <div class="container"> 
+   <div class="row"> 
+   <ol class="col-12 breadcrumb">
+     <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+     <li class="breadcrumb-item active">About Us</li>
+   </ol>
+   <div class="col-12">
+    <h3>About Me</h3>
+    <hr>
+ </div>
+   </div> 
+  </div>
+  <div class="container">
+    <div class="row row-content">
+      <div class="col-12 col-sm-9">
+        <strong>My name is Reet Roy and I'm currrently pursuing B.Tech in CSE. Belonging to the middle strata of society, I have a knack for hardwork,
+        but prefer smartwork wherever possible. Here is a brief overview about me. </strong>
+      </div>
+      <div class="col-12 col-sm-9 mt-5">
+        <h2 style="text-align: center;">Academics</h2>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead class="thead-dark">
+              <tr>
+                <th>Course</th>
+                <th>Board</th>
+                <th>Percentage Marks or CGPA</th>
+                <th>Year of Graduation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>B. Tech in CSE</th>
+                <td>MAKAUT</td>
+                <td>9.3(Current)</td>
+                <td>Pursuing</td>
+              </tr>
+              <tr>
+                <th>Higher Secondary</th>
+                <td>CISCE</td>
+                <td>95.75%</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <th>Secondary</th>
+                <td>CISCE</td>
+                <td>97.80%</td>
+                <td>2016</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div></div>
+  <section id="circleBar">
+    <h1>Skills</h1>
+    <h2>Frontend Web Development</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 ">
+          <div class="round" data-value="0.87" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i class="fa fa-html5"></i>
+              HTML Skills
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="round" data-value="0.54" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i class="fa fa-css3"></i>
+              CSS3 Skills
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="round" data-value="0.60" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i class="fa fa-jsfiddle"></i>
+              JQuery Skills
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="round" data-value="0.90" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i class="fa fa-laptop"></i>
+              Bootstrap Skills
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn mb-5" onClick="Circle('.round');">Refresh</button>
+    <h2>Programming Languages</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 ">
+          <div class="round" data-value="0.70" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i class="fab fa-java"></i>
+              Java
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="round" data-value="0.77" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i class="fab fa-python"></i>
+              Python
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="round" data-value="0.90" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i class="fab fa-cuttlefish"></i>
+              C
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="round" data-value="0.60" data-size="200" data-thickness="12">
+            <strong></strong>
+            <span><i><img src="img/c-plus-plus-logo.png" width="20" height="20"></i>
+              C++
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn" onClick="Circle('.round');">Refresh</button>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-5 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutus.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5">
+                <h5>Our Address</h5>
+                <address>
+                  73, Abhinash Chandra Bannerjee Lane<br>
+                  Subhash Sarovar, Beliaghata<br>
+                  Kolkata-10<br>
+                    <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                    <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                    <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:ragh@gmail.com">ragh@gmail.com</a>
+                </address>
+            </div>
+            <div class="col col-sm-4 align-self-center">
+                <div style="text-align:center">
+                    <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>© Copyright 2021 Reet Roy</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>
+  <script>
+    function Circle(el){
+      $(el).circleProgress({fill:{color:'#885eaf'}})
+      .on('circle-animation-progress',function(event,progress,stepValue){
+          $(this).find('strong').text(String(stepValue.toFixed(2)).substr(2)+'%');
+        });
+    };
+    Circle('.round');
+  </script>
+
+</body></html>
